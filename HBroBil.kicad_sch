@@ -1337,7 +1337,7 @@
     (property "Value" "R_Small_US" (id 1) (at 96.5199 139.7 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal" (id 2) (at 95.25 142.24 0)
+    (property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal" (id 2) (at 95.25 142.24 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (id 3) (at 95.25 142.24 0)
@@ -1367,6 +1367,7 @@
     (pin "3" (uuid 55509452-cbd6-4106-adbd-874366a94bbb))
   )
 
+<<<<<<< Updated upstream
   (symbol (lib_id "power:GNDREF") (at 102.87 82.55 0) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid 2fa0d964-252a-4916-986a-fc99c14c8137)
@@ -1381,6 +1382,24 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid a0c4a0ae-b375-4c53-941d-bf1912c10dad))
+=======
+  (symbol (lib_id "power:GNDREF") (at 106.68 142.24 90) (unit 1)
+    (in_bom yes) (on_board yes) (fields_autoplaced)
+    (uuid 42da2d5c-62fd-465e-9daa-3b97f5f0d073)
+    (property "Reference" "#PWR0104" (id 0) (at 113.03 142.24 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Value" "GNDREF" (id 1) (at 109.855 142.6738 90)
+      (effects (font (size 1.27 1.27)) (justify right))
+    )
+    (property "Footprint" "" (id 2) (at 106.68 142.24 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (id 3) (at 106.68 142.24 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid e3cd3a88-577e-4d0f-a4b1-28858c3315dc))
+>>>>>>> Stashed changes
   )
 
   (symbol (lib_id "Device:R_Small_US") (at 104.14 142.24 90) (unit 1)
@@ -1392,7 +1411,7 @@
     (property "Value" "R_Small_US" (id 1) (at 105.4099 139.7 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal" (id 2) (at 104.14 142.24 0)
+    (property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal" (id 2) (at 104.14 142.24 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (id 3) (at 104.14 142.24 0)
@@ -1463,7 +1482,7 @@
     (uuid 748e5028-714b-48a3-bd64-960cc548f1ac)
     (property "Reference" "R4" (id 0) (at 115.57 107.95 90))
     (property "Value" "R" (id 1) (at 115.57 110.49 90))
-    (property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal" (id 2) (at 115.57 116.078 90)
+    (property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal" (id 2) (at 115.57 116.078 90)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (id 3) (at 115.57 114.3 0)
@@ -1473,12 +1492,30 @@
     (pin "2" (uuid 3b889783-2ee0-46a3-8524-49b5fd314de5))
   )
 
+  (symbol (lib_id "power:GNDREF") (at 102.87 82.55 0) (unit 1)
+    (in_bom yes) (on_board yes) (fields_autoplaced)
+    (uuid 883574d5-20c9-4bb3-b544-9d76c4b97bfb)
+    (property "Reference" "#PWR0105" (id 0) (at 102.87 88.9 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Value" "GNDREF" (id 1) (at 104.775 84.2538 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Footprint" "" (id 2) (at 102.87 82.55 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (id 3) (at 102.87 82.55 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 901d91f5-87a5-4b93-b601-bb25d53a2cab))
+  )
+
   (symbol (lib_id "Device:R") (at 96.52 69.85 90) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid 8d514c98-81d5-42d5-8db0-5f980b1ed1f9)
     (property "Reference" "R3" (id 0) (at 96.52 63.5 90))
     (property "Value" "R" (id 1) (at 96.52 66.04 90))
-    (property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal" (id 2) (at 96.52 71.628 90)
+    (property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal" (id 2) (at 96.52 71.628 90)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (id 3) (at 96.52 69.85 0)
@@ -1497,7 +1534,7 @@
     (property "Value" "R_Small_US" (id 1) (at 152.4 78.7399 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
-    (property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal" (id 2) (at 149.86 77.47 0)
+    (property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal" (id 2) (at 149.86 77.47 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (id 3) (at 149.86 77.47 0)
@@ -1570,7 +1607,7 @@
     (uuid b8aa5bed-d079-41f8-b434-233791fb84f3)
     (property "Reference" "InvertedLamp1" (id 0) (at 124.46 106.68 90))
     (property "Value" "Lamp" (id 1) (at 124.46 109.22 90))
-    (property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal" (id 2) (at 121.92 114.3 90)
+    (property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P2.54mm_Vertical" (id 2) (at 121.92 114.3 90)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (id 3) (at 121.92 114.3 90)
@@ -1658,7 +1695,7 @@
     (property "Value" "R_Small_US" (id 1) (at 152.4 64.7699 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
-    (property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal" (id 2) (at 149.86 63.5 0)
+    (property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal" (id 2) (at 149.86 63.5 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (id 3) (at 149.86 63.5 0)
@@ -1677,7 +1714,7 @@
     (property "Value" "R_Small_US" (id 1) (at 125.73 78.7399 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
-    (property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal" (id 2) (at 123.19 77.47 0)
+    (property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal" (id 2) (at 123.19 77.47 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (id 3) (at 123.19 77.47 0)
@@ -1696,7 +1733,7 @@
     (property "Value" "R_Small_US" (id 1) (at 125.73 64.7699 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
-    (property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal" (id 2) (at 123.19 63.5 0)
+    (property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal" (id 2) (at 123.19 63.5 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (id 3) (at 123.19 63.5 0)
@@ -1833,7 +1870,7 @@
     (uuid fddfdfa9-f21b-4023-8625-7d33e6291beb)
     (property "Reference" "Lamp1" (id 0) (at 105.41 62.23 90))
     (property "Value" "Lamp" (id 1) (at 105.41 64.77 90))
-    (property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal" (id 2) (at 102.87 69.85 90)
+    (property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P2.54mm_Vertical" (id 2) (at 102.87 69.85 90)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (id 3) (at 102.87 69.85 90)
@@ -1857,26 +1894,33 @@
     (path "/4ec8f129-fb7c-4d39-bdae-0310c9cbe384"
       (reference "#PWR0103") (unit 1) (value "GNDREF") (footprint "")
     )
+<<<<<<< Updated upstream
     (path "/9d159183-986f-42b2-9b59-de7d216f55de"
       (reference "#PWR0104") (unit 1) (value "GNDREF") (footprint "")
     )
     (path "/2fa0d964-252a-4916-986a-fc99c14c8137"
+=======
+    (path "/42da2d5c-62fd-465e-9daa-3b97f5f0d073"
+      (reference "#PWR0104") (unit 1) (value "GNDREF") (footprint "")
+    )
+    (path "/883574d5-20c9-4bb3-b544-9d76c4b97bfb"
+>>>>>>> Stashed changes
       (reference "#PWR0105") (unit 1) (value "GNDREF") (footprint "")
     )
     (path "/f4ec7ea6-8beb-43cb-a9fc-1096ac2d6bfa"
       (reference "Auto/Man1") (unit 1) (value "100SP1T1B4M2QE") (footprint "100SP1T1B4M2QELegacy:100SP1T1B4M2QE")
     )
     (path "/d8bb0050-5cc8-437f-8299-805ee4df6c50"
-      (reference "FlybackNPN1") (unit 1) (value "R_Small_US") (footprint "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal")
+      (reference "FlybackNPN1") (unit 1) (value "R_Small_US") (footprint "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal")
     )
     (path "/91abf4c4-4eac-4eba-a143-1d040c2449ad"
-      (reference "FlybackNPN2") (unit 1) (value "R_Small_US") (footprint "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal")
+      (reference "FlybackNPN2") (unit 1) (value "R_Small_US") (footprint "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal")
     )
     (path "/e788f2f1-a5f2-475c-8a73-71d12fa3f115"
-      (reference "FlybackPNP1") (unit 1) (value "R_Small_US") (footprint "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal")
+      (reference "FlybackPNP1") (unit 1) (value "R_Small_US") (footprint "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal")
     )
     (path "/d09c46a4-4e92-4fc5-a048-22f945ce2a1e"
-      (reference "FlybackPNP2") (unit 1) (value "R_Small_US") (footprint "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal")
+      (reference "FlybackPNP2") (unit 1) (value "R_Small_US") (footprint "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal")
     )
     (path "/9efdf22b-e0cc-40c3-9f24-73a330af4815"
       (reference "HastighedSwitch1") (unit 1) (value "100SP1T1B4M2QE") (footprint "100SP1T1B4M2QELegacy:100SP1T1B4M2QE")
@@ -1885,13 +1929,13 @@
       (reference "IC1") (unit 1) (value "MCP6542-I_P") (footprint "DIP781W56P254L950H533Q8N")
     )
     (path "/b8aa5bed-d079-41f8-b434-233791fb84f3"
-      (reference "InvertedLamp1") (unit 1) (value "Lamp") (footprint "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal")
+      (reference "InvertedLamp1") (unit 1) (value "Lamp") (footprint "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P2.54mm_Vertical")
     )
     (path "/4aa6246f-047e-4c7c-b0b1-04c606fd9d8f"
       (reference "J1") (unit 1) (value "Conn_01x07_Male") (footprint "Resistor_THT:R_Array_SIP7")
     )
     (path "/fddfdfa9-f21b-4023-8625-7d33e6291beb"
-      (reference "Lamp1") (unit 1) (value "Lamp") (footprint "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal")
+      (reference "Lamp1") (unit 1) (value "Lamp") (footprint "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P2.54mm_Vertical")
     )
     (path "/fcb3892c-805f-454c-b31a-7f20edd6ca79"
       (reference "ManDir1") (unit 1) (value "100SP1T1B4M2QE") (footprint "100SP1T1B4M2QELegacy:100SP1T1B4M2QE")
@@ -1915,16 +1959,16 @@
       (reference "PotentioMTR1") (unit 1) (value "R_Potentiometer") (footprint "100SP1T1B4M2QELegacy:100SP1T1B4M2QE")
     )
     (path "/224dcdfe-9931-4858-a8ad-07131669fc3e"
-      (reference "R1") (unit 1) (value "R_Small_US") (footprint "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal")
+      (reference "R1") (unit 1) (value "R_Small_US") (footprint "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal")
     )
     (path "/43687612-4a90-40ba-b943-c262042e1b70"
-      (reference "R2") (unit 1) (value "R_Small_US") (footprint "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal")
+      (reference "R2") (unit 1) (value "R_Small_US") (footprint "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal")
     )
     (path "/8d514c98-81d5-42d5-8db0-5f980b1ed1f9"
-      (reference "R3") (unit 1) (value "R") (footprint "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal")
+      (reference "R3") (unit 1) (value "R") (footprint "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal")
     )
     (path "/748e5028-714b-48a3-bd64-960cc548f1ac"
-      (reference "R4") (unit 1) (value "R") (footprint "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal")
+      (reference "R4") (unit 1) (value "R") (footprint "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal")
     )
   )
 )
